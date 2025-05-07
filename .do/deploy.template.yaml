@@ -1,0 +1,8 @@
+spec:
+  name: template-discord-bot-worker
+  services:
+  - environment_slug: python
+    git:
+      branch: main
+      repo_clone_url: https://github.com/digitalocean/discord-bot-worker.git
+    name: template-discord-bot-worker

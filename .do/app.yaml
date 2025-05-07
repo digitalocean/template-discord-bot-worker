@@ -1,0 +1,8 @@
+name: template-discord-bot-worker
+services:
+- environment_slug: python
+  github:
+    branch: main
+    deploy_on_push: true
+    repo: digitalocean/template-discord-bot-worker
+  name: template-discord-bot-worker
