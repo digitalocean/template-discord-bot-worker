@@ -6,3 +6,6 @@ services:
     deploy_on_push: true
     repo: digitalocean/template-discord-bot-worker
   name: template-discord-bot-worker
+  envs:
+    - key: DISCORD_TOKEN
+      value: <REQUIRED>
