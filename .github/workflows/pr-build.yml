@@ -24,7 +24,7 @@ jobs:
         run: doctl apps dev build --no-cache
       
       - name: Start App container in background
-        run: docker run -d -e PORT=8080 -p 8080:8080 web:dev
+        run: docker run -d -e PORT=8080 -p 8080:8080 worker:dev
 
       - name: Wait for App to be ready and test
         run: |
