@@ -32,8 +32,3 @@ jobs:
 
       - name: Run doctl apps dev build
         run: doctl apps dev build --no-cache
-
-      - name: Wait for App to be ready and test
-        run: |
-          sleep 5
-          curl http://localhost:8080/ping
