@@ -1,6 +1,8 @@
 ## Digitalocean Template Repos
 This repository contains a template for a background worker process suitable for running a Discord bot.
 
+<img src="media/Demo.gif" width="600"/> 
+
 **Note**: Following these steps may result in charges for the use of DigitalOcean services.
 
 ### Requirements
